@@ -1,0 +1,172 @@
+.intro_main {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 5% 0 5%;
+}
+
+.intro_teaching_png {
+  width: 80%;
+  height: auto;
+  object-fit: fill;
+  background-color: white;
+}
+
+.intro_right_content {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.intro_left_content {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro_top_text {
+  font-size: 1.5vw;
+  margin: 0 0 0 0;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium";
+}
+
+.intro_header_text {
+  font-size: 2.6vw;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium";
+}
+
+.intro_body_text {
+  font-size: 1.3vw;
+  margin: 10px 0 0 0;
+  font-style: normal;
+  color: gray;
+}
+
+.intro_btn {
+  width: 40%;
+  height: 3.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  color: white;
+  background-color: #5270ff;
+  border-radius: 10px;
+  transition: transform 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  margin: 30px 0 0 0;
+}
+
+.intro_btn:hover {
+  color: #5270ff;
+  background-color: #ebefff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5270ff;
+  transform: scale(1.05);
+}
+
+/* Intro service small box */
+.intro_live_box {
+  background-color: white;
+  width: 30%;
+  height: 13%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #5270ff;
+}
+
+.intro_box_img {
+  width: 30%;
+  height: auto;
+  object-fit: fill;
+  margin: 0 0 0 10px;
+}
+
+.intro_box_title {
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: black;
+  margin: 0 0 0 10px;
+}
+
+.intro_box_body {
+  font-size: 0.7vw;
+  font-weight: bold;
+  color: gray;
+  margin: 0 0 0 10px;
+}
+/* Intro service small box */
+
+/* Media query for tablet devices */
+@media (max-width: 1024px) and (min-width: 601px) {
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .intro_main {
+    display: block;
+  }
+
+  .intro_teaching_png {
+    width: 90%;
+  }
+
+  /* Left content */
+  .intro_left_content {
+    margin: 30px 0 0 0;
+  }
+
+  .intro_top_text {
+    font-size: 3vw;
+  }
+
+  .intro_header_text {
+    font-size: 5vw;
+  }
+
+  .intro_body_text {
+    font-size: 3vw;
+  }
+
+  .intro_btn {
+    width: 40%;
+    height: 6vw;
+    font-size: 2.3vw;
+  }
+  /* Left content */
+
+  /* Intro service small box */
+  .intro_live_box {
+    width: 35%;
+    height: 15%;
+  }
+
+  .intro_box_img {
+    width: 20%;
+  }
+
+  .intro_box_title {
+    font-size: 3vw;
+  }
+
+  .intro_box_body {
+    font-size: 1.7vw;
+  }
+  /* Intro service small box */
+}

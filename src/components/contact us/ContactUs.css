@@ -1,0 +1,88 @@
+.contact_main{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    margin: 30px 0 0 0;
+}
+
+.contact_left_content{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact_right_content{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: rgba(109, 83, 255, 0.2) 0px 2px 8px 0px;
+}
+
+.contact_form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.contact_desc{
+    height: 15vw;
+    font-size: 1vw;
+}
+
+.contact_input{
+    height: 2.5vw;
+    font-size: 1vw;
+}
+
+.contact_input_text{
+    margin: 10px 0 0 0;
+    font-size: 1vw;
+}
+
+.contact_submit{
+    background-color: #5270FF;
+    height: 2.5vw;
+    font-size: 1vw;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+}
+
+.contact_text_header{
+    color: black;
+    font-size: 2.6vw;
+    font-weight: bold;
+}
+
+.contact_text_body{
+    color: black;
+    font-size: 1.3vw;
+    margin: 20px 0 20px 0;
+    padding: 0 10px 0 0;
+}
+
+.contact_text_sub_body{
+    color: black;
+    font-size: 1.1vw;
+    margin: 10px 0 0 0;
+}
+
+.contact_text_details{
+    color: black;
+    font-size: 1vw;
+    margin: 30px 0 0 0;
+}

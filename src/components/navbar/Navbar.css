@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'YourFont';
+    src: url('../../fonts/BukhariScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .main{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0 5% 0 5%;
+}
+
+.nav_right_content{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.nav_left_content{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.nav_logo_text{
+    font-size: 2.8vw;
+    color: white;
+    font-family: 'YourFont', sans-serif;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav_logo_text:hover{
+    transform: scale(1.05);
+}
+
+.nav_text{
+    font-size: 1.2vw;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.nav_text:hover{
+    transform: scale(1.1);
+}
+
+.nav_btn{
+    width: 40%;
+    height: 2.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    color: white;
+    background-color: #5270FF;
+    border-radius: 10px;
+    transition: transform 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.nav_btn:hover{
+    color: #5270FF;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5270FF;
+    transform: scale(1.05);
+}
+
+
+/* Media query for tablet devices */
+/* @media (max-width: 1024px) and (min-width: 601px) {
+
+    .nav_left_content{
+        width: 100%;
+    }
+
+    .nav_right_content {
+        width: 100%;
+        background-color: white;
+        justify-content: end;
+    }
+
+    .nav_text{
+        display: none;
+    }
+
+} */
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .nav_right_content {
+        display: none;
+    }
+}
